@@ -129,6 +129,24 @@ b) NaN
 c) "42"
 d) Error
 
+***
+
+```javascript
+What will be the output for both comparisons?
+
+var a = 41;
+var b = "42";
+var c = "43";
+
+a < b;
+b < c;
+```
+
+a*) true, true  
+b) true, false  
+c) false, true  
+d) false, false  
+
 # Scope @ Closures @You Don't Know JS
 
 ```javascript
