@@ -281,6 +281,21 @@ b) Undefined
 c) 2 4 6
 d) 2 8 16
 
+***
+
+```javascript
+a = "42";
+b = 42;
+c = a == b
+console.log(c)
+```
+
+What will be printed out in console?
+
+a) Undefined  
+b) NaN  
+c) False  
+d*) True  
 
 # this & Object Prototypes @You Don't Know JS
 
