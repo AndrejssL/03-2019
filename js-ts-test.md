@@ -541,3 +541,16 @@ a) Undefined
 b) 2
 c) 9
 d*) 76
+
+***
+
+```markdown
+`...` allow us to define a set of named constants. Using `...` can make it easier to document intent, or create a set of distinct cases. TypeScript provides both numeric and string-based `...`.
+```
+
+Choose the right missing words for empty space `...`!
+
+a*) Enums.  
+b) Classes.  
+c) Modules.  
+d) Decorators.  
