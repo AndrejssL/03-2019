@@ -116,7 +116,7 @@ To do that:
 | Ketija | - | - | - | - |
 | Kārlis | ✅ | ✅ | ✅ | ✅ |
 | Andrejs | - | - | - | - |
-| Jānis | - | - | - | - |
+| Jānis | ✅ | ✅ | ✅ | ✅ |
 | Andis | ✅ | ✅ | ✅ | ✅ |
 | Eduards | - | - | - | - |
 | Ēriks | - | - | - | - |
