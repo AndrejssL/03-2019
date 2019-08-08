@@ -109,6 +109,26 @@ b) ”===” sets values ”==” compares values
 c*) ”==” only compares values “===” compare values and type both
 d) ”===” only compares values “==” compare values and type both
 
+
+***
+Implicit coercion: what is b value?
+
+```javascript
+var a = "42";
+
+var b = a * 1;
+
+a;				
+b;	
+```
+
+What is b value?
+
+a*) 42
+b) NaN
+c) "42"
+d) Error
+
 # Scope @ Closures @You Don't Know JS
 
 ```javascript
@@ -217,6 +237,32 @@ a*) ReferenceError: a is not defined.
 b) undefined
 c) 123
 d) null
+
+*** 
+Lexical scope: what is the output?
+
+```javascript
+function foo(a) {
+
+	var b = a * 2;
+
+	function bar(c) {
+		console.log( a, b, c );
+	}
+
+	bar(b * 3);
+}
+
+foo( 2 ); 
+```
+
+What is the output?
+
+a*) 2 4 12
+b) Undefined
+c) 2 4 6
+d) 2 8 16
+
 
 # this & Object Prototypes @You Don't Know JS
 
@@ -335,6 +381,36 @@ b*) this refers to the owner object.
 c) this refers to the owner properties.
 d) this refers to the owner prototypes.
 
+***
+
+this: what is the output?
+
+```javascript
+function foo(num) {
+	console.log( "foo: " + num );
+	this.count++;
+}
+
+foo.count = 0;
+
+var i;
+
+for (i=0; i<10; i++) {
+	if (i > 5) {
+		foo( i );
+	}
+}
+
+console.log( foo.count );
+```
+
+What is the output?
+
+a) 9
+b) Undefined
+c) 4
+d*) 0
+
 
 # Handbook @typescriptlang.org
 
@@ -396,3 +472,20 @@ c) None.
 d) Both.
 
 
+***
+
+Enum: what is the output?
+
+```typescript
+enum Color {Red = 7, Green = 75 , Blue}
+let colorName: Color = Color.Blue;
+
+console.log(colorName);
+```
+
+What is the output?
+
+a) Undefined
+b) 2
+c) 9
+d*) 76
