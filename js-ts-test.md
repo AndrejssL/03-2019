@@ -444,6 +444,25 @@ b) Undefined
 c) 4
 d*) 0
 
+***
+
+```javascript
+var myObject = {};
+
+Object.defineProperty( myObject, "a", {
+	value: 2,
+	writable: false,
+	configurable: true,
+	enumerable: true
+} );
+```
+
+How would you change this objects value to 3?
+
+a) myObject.a = 3;  
+b) myObject.value = 3;  
+c*) it's not possible  
+d) a.value = 3;  
 
 # Handbook @typescriptlang.org
 
