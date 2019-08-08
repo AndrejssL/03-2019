@@ -123,7 +123,7 @@ To do that:
 | Zigmunds | - | - | - | - |
 | Kristiāna | ✅ | ✅ | ✅ | ✅ |
 | Andris | ✅ | ✅ | ✅ | ✅ |
-| Gatis | - | - | - | - |
+| Gatis | ✅ | ✅ | ✅ | ✅ |
 | Kristiāns | - | - | - | - |
 | Marta | - | - | - | - |
 
