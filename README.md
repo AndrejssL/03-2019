@@ -119,7 +119,7 @@ To do that:
 | Jānis | ✅ | ✅ | ✅ | ✅ |
 | Andis | ✅ | ✅ | ✅ | ✅ |
 | Eduards | ✅ | ✅ | ✅ | ✅ |
-| Ēriks | - | - | - | - |
+| Ēriks | ✅ | ✅ | ✅ | ✅ |
 | Zigmunds | ✅ | ✅ | ✅ | ✅ |
 | Kristiāna | ✅ | ✅ | ✅ | ✅ |
 | Andris | ✅ | ✅ | ✅ | ✅ |
