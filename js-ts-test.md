@@ -167,6 +167,14 @@ b*) both values and types are equal
 c) when types should not be equal
 d) values  are equal
 
+***
+Which of the following is a valid arrow function?
+
+1*. let sum = (x: number, y: number) => x + y;
+2. let sum(): (x: number, y: number):number => x + y;
+3. let sum = (x: number, y: number) => return x + y;
+4. let sum:(x: number, y: number) => x + y;
+
 # Scope @ Closures @You Don't Know JS
 
 ```javascript
@@ -337,6 +345,23 @@ a) only on global scope!
 b*) when value shouldn’t change
 c) only in For Loops
 d) when the value is going to change
+
+***
+What is the result of the below code when the functions get called in the order as mentioned?
+
+var a = 5;
+function first() {
+    a = 6;
+}
+
+function second() {
+    alert(a);
+}
+
+1. undefined
+2. null
+3. 5
+4*. 6
 
 # this & Object Prototypes @You Don't Know JS
 
@@ -531,6 +556,20 @@ b) function
 c) string, number, boolean 
 d*) a and c
 
+***
+
+What will be the log made by the following code?
+
+var obj = { x: 10, y: 20 };
+var obj2 = {x: 20};
+var obj3 = Object.create(obj2)
+console.log(obj3.y)
+
+1. 20
+2*. undefined
+3. Error
+4. null 
+
 # Handbook @typescriptlang.org
 
 ```typescript
@@ -678,3 +717,16 @@ a) global scope
 b) block scope
 c) class scope
 d*) all of them
+
+***
+What will be printed out?
+
+for (var i = 0; i < 10; i++) {
+    setTimeout(function() { console.log(i); }, 100 * i);
+}
+
+1. 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+2*. 10, 10, 10, 10, 10, 10, 10, 10, 10, 10
+3. undefined
+4. error
+
