@@ -159,6 +159,13 @@ b) undefined
 c*) 3
 d) error
 
+***
+
+Triple equality ‘===’ is used when:
+a) types are equal
+b*) both values and types are equal
+c) when types should not be equal
+d) values  are equal
 
 # Scope @ Closures @You Don't Know JS
 
@@ -323,7 +330,13 @@ b) undefined
 c) a
 d) error
 
+***
 
+When should you use const instead of let or var?
+a) only on global scope!
+b*) when value shouldn’t change
+c) only in For Loops
+d) when the value is going to change
 
 # this & Object Prototypes @You Don't Know JS
 
@@ -510,6 +523,13 @@ c)  3
 c)  3
     error 
 
+***
+
+Which of these are the primary object types in JavaScript? 
+a) null, undefined, object 
+b) function 
+c) string, number, boolean 
+d*) a and c
 
 # Handbook @typescriptlang.org
 
@@ -617,6 +637,14 @@ a*) object
 b*) symbol
 c) enum
 d) array
+
+***
+
+Whats the correct way of assigning integer type in TS
+a) let frenchFries: num = 30
+b*) let frenchFries: number = 30
+c) let frenchFries: int = 30
+d) let frenchFries: integer = 30
 
 
 # Scope @ Closures
