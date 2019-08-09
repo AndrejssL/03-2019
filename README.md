@@ -120,7 +120,7 @@ To do that:
 | Andis | ✅ | ✅ | ✅ | ✅ |
 | Eduards | ✅ | ✅ | ✅ | ✅ |
 | Ēriks | - | - | - | - |
-| Zigmunds | - | - | - | - |
+| Zigmunds | ✅ | ✅ | ✅ | ✅ |
 | Kristiāna | ✅ | ✅ | ✅ | ✅ |
 | Andris | ✅ | ✅ | ✅ | ✅ |
 | Gatis | ✅ | ✅ | ✅ | ✅ |
