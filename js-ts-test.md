@@ -129,6 +129,24 @@ b) NaN
 c) "42"
 d) Error
 
+***
+
+```javascript
+What will be the output for both comparisons?
+
+var a = 41;
+var b = "42";
+var c = "43";
+
+a < b;
+b < c;
+```
+
+a*) true, true  
+b) true, false  
+c) false, true  
+d) false, false  
+
 # Scope @ Closures @You Don't Know JS
 
 ```javascript
@@ -263,6 +281,21 @@ b) Undefined
 c) 2 4 6
 d) 2 8 16
 
+***
+
+```javascript
+a = "42";
+b = 42;
+c = a == b
+console.log(c)
+```
+
+What will be printed out in console?
+
+a) Undefined  
+b) NaN  
+c) False  
+d*) True  
 
 # this & Object Prototypes @You Don't Know JS
 
@@ -411,6 +444,25 @@ b) Undefined
 c) 4
 d*) 0
 
+***
+
+```javascript
+var myObject = {};
+
+Object.defineProperty( myObject, "a", {
+	value: 2,
+	writable: false,
+	configurable: true,
+	enumerable: true
+} );
+```
+
+How would you change this objects value to 3?
+
+a) myObject.a = 3;  
+b) myObject.value = 3;  
+c*) it's not possible  
+d) a.value = 3;  
 
 # Handbook @typescriptlang.org
 
@@ -489,3 +541,16 @@ a) Undefined
 b) 2
 c) 9
 d*) 76
+
+***
+
+```markdown
+`...` allow us to define a set of named constants. Using `...` can make it easier to document intent, or create a set of distinct cases. TypeScript provides both numeric and string-based `...`.
+```
+
+Choose the right missing words for empty space `...`!
+
+a*) Enums.  
+b) Classes.  
+c) Modules.  
+d) Decorators.  
