@@ -129,6 +129,37 @@ b) NaN
 c) "42"
 d) Error
 
+***
+
+```javascript
+What will be the output for both comparisons?
+
+var a = 41;
+var b = "42";
+var c = "43";
+
+a < b;
+b < c;
+```
+
+a*) true, true  
+b) true, false  
+c) false, true  
+d) false, false  
+
+***
+
+var arr = ["hello world" , 42, true];
+console.log (arr.length);
+
+What will be the output of this code?
+
+a) ["hello world" , 42, true]
+b) undefined 
+c*) 3
+d) error
+
+
 # Scope @ Closures @You Don't Know JS
 
 ```javascript
@@ -262,6 +293,36 @@ a*) 2 4 12
 b) Undefined
 c) 2 4 6
 d) 2 8 16
+
+***
+
+```javascript
+a = "42";
+b = 42;
+c = a == b
+console.log(c)
+```
+
+What will be printed out in console?
+
+a) Undefined  
+b) NaN  
+c) False  
+d*) True  
+
+***
+
+What will be the output of this code?
+
+a = 2;
+var a;
+console.log( a );
+
+a*) 2
+b) undefined
+c) a
+d) error
+
 
 
 # this & Object Prototypes @You Don't Know JS
@@ -411,6 +472,44 @@ b) Undefined
 c) 4
 d*) 0
 
+***
+
+```javascript
+var myObject = {};
+
+Object.defineProperty( myObject, "a", {
+	value: 2,
+	writable: false,
+	configurable: true,
+	enumerable: true
+} );
+```
+
+How would you change this objects value to 3?
+
+a) myObject.a = 3;  
+b) myObject.value = 3;  
+c*) it's not possible  
+d) a.value = 3;  
+
+***
+
+What will be the output of this code?
+
+var myArray = [ "foo", 42, "bar" ];
+myArray.baz = "baz";
+console.log(myArray.length);
+console.log(myArray.baz);
+
+a*) 3
+    "baz"
+b)  4
+    "baz" 
+c)  3
+    undefined 
+c)  3
+    error 
+
 
 # Handbook @typescriptlang.org
 
@@ -490,7 +589,27 @@ b) 2
 c) 9
 d*) 76
 
-# Up & Going
+```markdown
+`...` allow us to define a set of named constants. Using `...` can make it easier to document intent, or create a set of distinct cases. TypeScript provides both numeric and string-based `...`.
+```
+
+Choose the right missing words for empty space `...`!
+
+a*) Enums.  
+b) Classes.  
+c) Modules.  
+d) Decorators.  
+
+***
+
+When it is applicable to use data type 'any'?
+
+a) 'any' is not useful because you can only assign undefined or null to it.
+b*) The any type is handy if you know some part of the type, but perhaps not all of it.
+c) You can use type 'any' whenever you like, it is very useful.
+d*) When we need to describe the type of variables that we do not know when we are writing an application
+
+Up & Going
 ---
 Which of these are JavaScript types?
 

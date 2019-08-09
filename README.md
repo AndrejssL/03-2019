@@ -118,14 +118,14 @@ To do that:
 | Andrejs | - | - | - | - |
 | Jānis | ✅ | ✅ | ✅ | ✅ |
 | Andis | ✅ | ✅ | ✅ | ✅ |
-| Eduards | - | - | - | - |
+| Eduards | ✅ | ✅ | ✅ | ✅ |
 | Ēriks | - | - | - | - |
 | Zigmunds | - | - | - | - |
 | Kristiāna | ✅ | ✅ | ✅ | ✅ |
 | Andris | ✅ | ✅ | ✅ | ✅ |
 | Gatis | ✅ | ✅ | ✅ | ✅ |
 | Kristiāns | - | - | - | - |
-| Marta | - | - | - | - |
+| Marta | ✅ | ✅ | ✅ | ✅ |
 
 ## Shopping Cart in React (deadline August 12th)
 
