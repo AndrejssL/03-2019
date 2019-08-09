@@ -125,7 +125,7 @@ To do that:
 | Andris | ✅ | ✅ | ✅ | ✅ |
 | Gatis | ✅ | ✅ | ✅ | ✅ |
 | Kristiāns | - | - | - | - |
-| Marta | - | - | - | - |
+| Marta | ✅ | ✅ | ✅ | ✅ |
 
 ## Shopping Cart in React (deadline August 12th)
 
